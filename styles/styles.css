@@ -144,12 +144,12 @@ nav h2{
     font-weight: 300;
     width: 200px;
     height: 40px;
-    margin-left: 250px;
+    margin-left: 270px;
     border-radius: 0;
-    background-color: rgba(220,224,228,0);
+    background-color: rgba(220,224,228,0.4);
     color: white ;
     /* border-radius: 5px; */
-    border-style: double;
+    /* border-style: double; */
 
 }
 
