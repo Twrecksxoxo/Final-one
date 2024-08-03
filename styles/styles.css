@@ -24,6 +24,7 @@
     width: 700px;
     margin-top: 200px;
     margin-left: 400px;
+
 }
 .B p{
     margin-top: 30px;
@@ -737,23 +738,68 @@ font-size: 25px;
 
 
 .page5{
+    margin-top: 25px;
      width: 1536px; ;
-    height: 1000px;
+    height: 900px;
     background-color: #25292F;
 }
+
 .lady{
     width: 1536px;
-    height: 600px;
-    background-color: aqua;
+    height: 500px;
+    background-color: #25292F;
 }
-
+.img-box{
+    background-image:linear-gradient(90deg, rgba(37,41,47,0.2),rgba(250,250,250,0.2)), url("../Sale.png") ;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-left: 200px;
+    width: 1150px;
+    height: 500px;
+    
+}
+.img-box h1{
+    color: #FFFFFF;
+    font-size: 50px;
+    width: 600px;
+    height: 100px;
+    text-align: center;
+    margin-left: 250px;
+}
+.press{
+    margin-left:290px ;
+}
+.press button{
+    width:260px;
+    height: 50px;
+    font-size: 15px;
+}
+.f1{
+    border-radius: 0;
+    border-color: rgba(36, 36, 36, 0.8);
+}
+.f1:hover{
+    width:270px;
+    height: 55px;
+}
+.f2{
+margin-left: 20px;
+color: #FFFFFF;
+background: none;
+border-radius: 0;
+}
+.f2:hover{
+    width:270px;
+    height: 55px;
+}
 .final{
     display: flex;
     width: 1536px;
     height: 600px;
 }
 .one{
-    margin-top: 100px;
+    margin-top: 110px;
     margin-left: 260px;
 
 }
@@ -786,5 +832,41 @@ font-size: 25px;
     color: #DCE0E4;
 }
 .icons{
+    display: flex;
+    width: 200px;
+    height: 30px;
+    margin-top: 50px;
+}
+.fb:hover{
+    width: 40px;
+    height: 40px;
+}
+
+.dis{
+
+    margin-left: 20px ;
+}
+.dis:hover{
+    width: 40px;
+    height: 40px;
+}
+.twit{
+    margin-left: 20px ;
+}
+.twit:hover{
+    width: 40px;
+    height: 40px;
+}
+.insta{
+    margin-left: 20px ;
+}
+.insta:hover{
+    width: 40px;
+    height: 40px;
+}
+.same:hover{
+font-size: 20px;
+}
+.press{
     display: flex;
 }
